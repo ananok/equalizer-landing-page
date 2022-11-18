@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin:0px;
+    background-color: var(--bg-white);
+}
+
+.bg-color{
+    display: none;
+}
+
+.wrapper{
+    height:1945px;
+    width:375px;
+}
+  
+
+header{
+    width:100%;
+    height: 488px;
+    position:relative;
+    overflow: hidden;
+}
+
+
+.logo{
+    width:146px;
+    height:32px;
+    margin-top:40px;
+    margin-left:24px;
+}
+
+.bg-light{
+    width: 148%;
+    height: 675px;
+    left: 4px;
+    top: -130px;
+    position: absolute;
+}
+
+.mobile{
+    width:208px;
+    height:430px;
+}
+
+.section-one{
+    width: 327px;
+    height: 320px;
+    margin: -363px auto;
+}
+
+h1{
+    font-size:var(--heading-m);
+    font-weight:var(--heading-weight);
+    width:100%;
+    height:144px;
+    color:var(--text-black);
+    font-style:normal
+}
+
+.para-one{
+    width:100%;
+    font-size: var(--body-m);
+    font-weight: var(--body-weight);
+    line-height: 26px;
+    color:var(--text-black);
+    font-style:normal;
+    margin-top:20px;
+}
+
+.section-two{
+    width:100%;
+    height:600px;
+    background-color: var(--bg-black);
+    border-radius: 12px;
+    margin-top:550px;
+}
+
+.mobile{
+    position: absolute;
+    width:208px;
+    height:430px;
+    margin-left:80px;
+    margin-top:-98px;
+}
+
+.bg-mobile{
+    position: absolute;
+    width:280px;
+    height:420px;
+    margin-left:48px;
+}
+
+.wrapper-two{
+    width:375px;
+    height:600px;
+    margin:0 auto;
+}
+
+.section-three{
+    width:100%;
+    height:546px;
+    background-color:var(--bg-orange);
+    position:absolute;
+    margin-top:-220px;
+}
+
+.wrapper-three{
+    width:375px;
+    height:546px;
+    margin:0 auto;
+}
+
+
+
+h2{
+    margin-top:48px;
+    color:var(--text-white);
+    font-size:32px;
+    line-height:40px;
+    font-weight:var(--heading-weight);
+    font-style:normal;
+    width:302px;
+    height:40px;
+    margin-left:36px;
+}
+
+.para-two{
+    width:302px;
+    height:140px;
+    color:var(--text-white);
+    font-size:18px;
+    line-height: 28px;
+    font-weight: var(--body-weight);
+    margin-left:36px;
+    margin-top:12px;
+}
+
+.price-div{
+    width:165px;
+    height:52px;
+    margin-top:36px;
+    margin-left:42px;
+    color:var(--text-white);
+    font-style:normal;
+    display: flex;
+    align-items: center;
+}
+
+.price{
+   width:79px;
+   height:52px;
+   font-weight:var(--heading-weight);
+   font-size:65px;
+   line-height:52px;
+   margin:0px;
+   
+}
+
+.term{
+    font-size: 20px;
+    font-weight:var(--body-weight);
+    line-height:32px;
+    letter-spacing: -0.2px;
+    width:70px;
+    height:32px;
+    margin-left:16px;
+}
+
+.black{
+    width: 296px;
+    height: 61px;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-top:32px;
+    margin-left:42px;
+    border-radius:12px;
+}
+
+.apple{
+    width:17px;
+    height:16px;
+}
+
+.white{
+    width: 296px;
+    height: 61px;
+    background-color: var(--bg-white);
+    color: var(--text-black);
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-top:16px;
+    margin-left:42px;
+    border-radius:12px;
+    letter-spacing: -0.18px;
+    border:none;
+}
+
+.android{
+    width:17px;
+    height:16px;
+    border:none;
+}
+
+footer{
+    width: 375px;
+    height: 233px;
+    margin: 390px auto 0 auto;
+    margin-bottom:80px;
+}
+
+.logo-footer{
+    width: 146px;
+    height: 32px;
+    margin-left: 25px;
+}
+
+.para-footer{
+    width: 327px;
+    height: 105px;
+    color: var(--bg-black);
+    font-size: var(--body-m);
+    line-height: 26px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 32px;
+}
+
+span{
+    white-space: pre-line;
+    font-weight:var(--heading-weight);
+    padding-right: 50%;
+}
+
+.socials{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+.socials img{
+    width:20px;
+    height:20px;
+    margin-right:20px;
+}
