@@ -104,7 +104,9 @@ h1{
     background-color:var(--bg-orange);
     position:absolute;
     margin-top:-220px;
+    border-radius: 12px;
 }
+
 
 .wrapper-three{
     width:375px;
@@ -251,4 +253,94 @@ span{
     width:20px;
     height:20px;
     margin-right:20px;
+}
+@media (min-width:768px) {
+    header{
+        height:632px;
+    }
+    .bg-color{
+        display: block;
+        width:267px;
+        height:400px;
+        position:absolute;
+        left: 69%;
+        top: -32px;
+    }
+
+    .logo{
+        margin-left: 39.15px;
+        margin-top: 61.99px;
+    }
+
+    .bg-light{
+        content:url(./assets/bg-main-tablet.png);
+        position: absolute;
+        width: 162%;
+        height: 897px;
+        left: -335px;
+        top: -194px;
+    }
+
+    .section-one{
+        width:520px;
+        height:332px;
+        margin-top:-500px;
+        margin-left:39px;
+    }
+    h1{
+        height:192px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        margin-bottom:0px;
+    }
+
+    .para-one{
+        width: 514px;
+        height: 112px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top:28px;
+    }
+
+    .mobile {
+        width: 270px;
+        height: 556px;
+        margin-left: -94px;
+        margin-top: -135px;
+    }
+
+    .section-two {
+        width: 89%;
+        height: 600px;
+        margin-top: 633px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bg-mobile{
+        margin-left: 66px;
+        margin-top: -28px;
+    }
+    .section-three {
+        width: 51%;
+        margin-top: -445px;
+        margin-left: 272px;
+    }
+
+    footer {
+        width: 696px;
+        height: 143px;
+        margin: 183px auto 0 auto;
+        margin-bottom: 80px;
+        display: flex;
+    }
+
+    .para-footer{
+        margin-left: -147px;
+        margin-top: 64px;
+        margin-right: 206px;
+    }
 }
