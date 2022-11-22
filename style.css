@@ -11,8 +11,8 @@ body{
 }
 
 .wrapper{
-    height:1945px;
-    width:375px;
+    height:auto;
+    width:100%;
 }
   
 
@@ -235,7 +235,7 @@ footer{
     margin-top: 32px;
 }
 
-span{
+.equalizer{
     white-space: pre-line;
     font-weight:var(--heading-weight);
     padding-right: 50%;
@@ -325,9 +325,17 @@ span{
         margin-top: -28px;
     }
     .section-three {
-        width: 51%;
-        margin-top: -445px;
+        width: 48%;
+        margin-top: -493px;
         margin-left: 272px;
+        background-color: transparent;
+    }
+    .wrapper-three{
+        background-color: var(--bg-orange);
+        border-radius: 12px;
+    }
+    h2{
+        padding-top:45px;
     }
 
     footer {
@@ -337,10 +345,172 @@ span{
         margin-bottom: 80px;
         display: flex;
     }
+    .equalizer{
+        padding-right:0;
+    }
 
+    .rights{
+        padding-right:50%;
+    }
     .para-footer{
         margin-left: -147px;
         margin-top: 64px;
         margin-right: 206px;
+        width:349px;
+    }
+    .wrapper{
+        width:100%
     }
 }
+
+    @media (min-width:1440px) {
+        .logo{
+            margin-left: 166px;
+            margin-top: 62px;
+        }
+
+        .bg-color{
+            width: 321px;
+            height: 468px;
+            left: 77.5%;
+        }
+        .bg-light{
+            display: none;
+
+        }
+
+        .wrapper {
+            background-image: url(./assets/bg-main-desktop.png);
+            width:100%;
+            background-position-x: -307px;
+            background-position-y: -210px;
+        }
+        .section-one{
+            width: 1015px;
+            height: 318px;
+            margin-left: 165px;
+            margin-top: -468px;
+        }
+
+        h1{
+            font-size: 88px;
+            line-height: 88px;
+            height: 176px;
+            width: 1015px;
+        }
+
+        .para-one{
+            width: 825px;
+            height: 103px;
+            font-size: 20px;
+            line-height: 34px;
+            margin-top: 40px;
+        }
+
+        .section-two{
+            width: 76%;
+            height: 600px;
+            margin-top: 705px;
+        }
+
+        .wrapper-two{
+            width:100%;
+
+        }
+        .mobile{
+            margin-left: 118px;
+            width: 312px;
+            height: 642px;
+            margin-top: -213px;
+        }
+
+        .bg-mobile{
+            width: 312px;
+            height: 468px;
+            margin-left: 352px;
+            margin-top: -40px;
+        }
+
+        .section-three{
+            width: 31%;
+            height: 625px;
+            margin-top: -558px;
+            margin-left: 722px;
+        }
+        h2{
+            font-size: 40px;
+            line-height: 52px;
+            margin-top: 58px;
+            width: 333px;
+            height: 52px;
+       }
+
+       .black{
+        width: 333px;
+        height: 62px;
+        margin-top:46px;
+        border:none;
+        cursor: pointer;
+       }
+       .black:hover{
+        background-color: var(--bg-blue);
+       }
+
+       .white{
+        width: 333px;
+        height: 61px;
+       }
+
+       .white:hover{
+        background-color: #FFB964;
+       }
+       .wrapper-three{
+        width:446px;
+        height:100%;
+       }
+
+        footer{
+            width: 1110px;
+            height: 79px;
+            margin-top:202px;
+        }
+
+        .logo-footer{
+            margin-left:0px;
+        }
+
+        .para-footer{
+            margin-top:0px;
+            margin-left:139px;
+            margin-right:359px;
+            width: 366px;
+            height: 79px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+       .para-two{
+        width: 333px;
+        height: 170px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-top:22px;
+       }
+
+       .equalizer{
+        padding-right:0px;
+
+    }
+
+    .socials{
+        margin-top:0px;
+    }
+
+    .socials img:hover{
+        cursor:pointer;
+        background-color: #FFB964;
+        
+        
+    }
+}
+    
